@@ -1,0 +1,40 @@
+.foter{
+    width: 100%;
+    height: auto;
+    background-color: #F2F2F2;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.instar{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #FF6F00; 
+}
+.facebook{
+    height: 50px;
+    margin-left: 5px;
+    border-radius: 50%;
+    width: 50px;
+    background-color: #644F9C;
+}
+.youtube{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 5px;
+    background-color: red;
+}
+@media (max-width:750px){
+
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+}

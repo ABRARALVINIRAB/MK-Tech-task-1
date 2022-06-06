@@ -1,0 +1,40 @@
+.seven-container{
+    width: 100%;
+    height: auto;
+    background-color: #644F9C;
+}
+.parent-title {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.one-bln{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 50%;
+    
+}
+.five{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border-radius: 50%;
+}
+.eightk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    background-color: #FF6F00;
+    border-radius: 50%;
+}
+

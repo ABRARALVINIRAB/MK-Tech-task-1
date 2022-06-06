@@ -1,0 +1,46 @@
+.second-home-page-container{
+    width: 100%;
+    height: auto;
+    background-color: #F2F2F2;
+}
+.seond-home-page-content{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.available-container{
+    display: flex;
+
+}
+.icon-container{
+    height: 300px;
+    width: 300px;
+}
+.icons{
+    height: 100%;
+    width: 100%;
+    color: #644F9C;
+    border-radius: 50%;
+    background-color: white;
+}
+.hello{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 300px;
+    margin-top: 10px;
+    color: white;
+    border-radius: 30px;
+    background-color: #644F9C;
+    margin-bottom: 40px;
+}
+
+@media (max-width:750px){
+    .seond-home-page-content{
+        display: flex;
+        flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    }
+}

@@ -1,0 +1,72 @@
+.orange{
+   color: #FF6F00;
+    
+}
+.orange-bg{
+    background-color: #FF6F00;
+}
+.black{
+    color: #404040;
+}
+
+.purple{
+  color: #644F9C;
+}
+.first-home-page-container{
+    width: 100%;
+    height: auto;
+    background-color: #F2F2F2;
+}
+.logo-parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-weight: 700;
+    font-size:xx-large;
+    color: #404040;
+}
+.login-parent{
+    width: 200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50px;
+    
+    
+}
+.register{
+    
+    border-radius: 10px;
+    padding: 2px;
+    margin: 10px;
+
+}
+.first-page-element{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.art-work{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    margin-bottom: 40px;
+}
+.btn-all{
+    border: 0;
+}
+@media (max-width:750px){
+    .first-page-element{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
